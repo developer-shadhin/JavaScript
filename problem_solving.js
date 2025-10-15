@@ -1,5 +1,8 @@
-//problem 01- Check Even or Odd
-let num = 7;
+//Javascript problem solving
+
+//Operators & Conditionals
+//Check Even or Odd
+let num = 3;
 let result = num % 2 === 0 ? "Even" : "Odd";
 
 console.log(result);
@@ -115,12 +118,72 @@ console.log(result);
 // }
 // else{
 //     console.log("No Profit No Loss");
-// } 
+// }
 
 
+// // Find Minimum of Two Numbers
+// let m1 = 12;
+// m2 = 5;
+
+// let minimum = m1 < m2 ? m1 : m2;
+
+// console.log(minimum);
 
 
+// //Simple Calculator
+// let n1 = 10;
+// let n2 = 5;
+// let operator = '*';
+
+// if (operator === '+'){
+//     document.write(n1 + n2);
+// }else if (operator === '-'){
+//     document.write(n1 - n2);
+// }else if (operator === '*'){
+//     document.write(n1 * n2);
+// }else if (operator === '/'){
+//     document.write(n1 / n2);
+// }else {
+//     document.write("Invalid Operator");
+// }
 
 
+// // Check Triangle Validity
 
+// let num1 = 1;
+// let num2 = 2;
+// let num3 = 3;
+
+// if (num1 + num2 > num3){
+//     document.write('valid Triangle');
+// }else {
+//     document.write('Not a valid Triangle' + "<br>");
+// }
+
+// Check Odd and Positive
+// let nm = -5;
+
+// if (nm > 0 && nm / 2 !== 0){
+//     document.write('the numer is odd and poditive');
+// }else if (nm < 0 && nm / 2 !== 0){
+//     document.write('the numer is odd but not poditive');
+// }
+// else {
+//     document.write('the numer is not odd and poditive');
+// }
+
+//Student Performance Category
+// let mark = 83;
+
+// if (mark >= 90){
+//     document.write('Excellent');
+// }else if (mark >= 80){
+//     document.write('Very Good');
+// }else if (mark <= 70){
+//     document.write('Good');
+// }else if (mark >= 60){
+//     document.write('Average');
+// }else {
+//     document.write('need Improvement');
+// }
 
